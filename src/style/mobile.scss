@@ -12,4 +12,9 @@
       display: none;
     }
   }
+  .money {
+    main {
+     flex-direction: column-reverse;
+    }
+  }
 }
