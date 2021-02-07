@@ -1,0 +1,17 @@
+@media (max-width: 500px) {
+  body {
+    margin: 0;
+  }
+
+  article {
+    width: auto;
+    height: auto;
+    padding: 1em;
+  }
+
+  .bio > img {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=mobile.6b04eafe.css.map */

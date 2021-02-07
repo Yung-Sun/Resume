@@ -1,0 +1,91 @@
+.bio {
+  position: relative;
+  line-height: 1.8;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.bio > h1 {
+  font-size: 1.8em;
+  padding: 0.3em 0;
+}
+.bio > img {
+  position: absolute;
+  width: 120px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-48%);
+}
+.bio > ul {
+  padding: 5px 0;
+}
+.bio > ul a {
+  color: #666666;
+  border: none;
+}
+.bio > ul li {
+  line-height: 1.5;
+}
+
+.education ul {
+  list-style: circle;
+  padding: 1em 1.5em;
+}
+.education ul li {
+  line-height: 1.6em;
+}
+
+.skills ul {
+  list-style: circle;
+  padding: 1em 1.5em;
+}
+.skills ul li {
+  line-height: 1.6em;
+}
+
+.projects .projectsList li {
+  padding: 10px 0;
+}
+.projects .projectsList li.money > main {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.projects .projectsList header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.projects .barCode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 12px;
+}
+.projects .barCode > span {
+  font-size: 12px;
+}
+.projects .barCode > img {
+  width: 120px;
+}
+
+.openSource .openSourceList {
+  padding: 10px 0;
+}
+.openSource .openSourceList header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.openSource .openSourceList li {
+  padding: 5px 0;
+}
+
+.others ul {
+  list-style: circle;
+  padding: 1em 1.5em;
+}
+.others ul li {
+  line-height: 1.6em;
+}
+
+/*# sourceMappingURL=style.5f471bbb.css.map */
